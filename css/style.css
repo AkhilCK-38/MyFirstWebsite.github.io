@@ -1,0 +1,166 @@
+    body{
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        margin: 0;
+        
+    
+    }
+    h1{
+    top:100px;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.25rem;
+    }
+    h2{
+        color: #66BFBF;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size:1.5rem ;
+        color: #11999E;
+        font-weight: bold;
+        
+    }
+    p{
+        line-height: 2;
+    }
+    hr{
+        border: dotted #75cfb8 8px;
+        border-bottom: none;
+        width: 10%;
+        margin:100px auto;
+
+        
+    }
+    .topContainer{
+        /*here we need to make one position as relative which will act as parent and all others are absolute to it*/
+       background-color: #E4F9F5; 
+        height: 800px;
+        position: relative;
+        padding-top: 100px;/*pushes everything down*/
+
+    }
+    .middle-container{
+        padding: 100px;
+        float: right;
+
+    }
+    .intro{
+        width: 60%;
+    margin: auto;
+
+
+    }
+    .topcloud{
+        position: absolute;
+        height: 60px;
+        right: 300px;
+        top: 50px;
+        
+    }
+    .bottomcloud{
+        position: absolute;
+        height: 60px;
+        left: 300px;
+        bottom: 300;
+
+    }
+    .mountain{
+        height: 50%;
+    }
+    .personalpic{
+    height: 300px;
+    width: 300px;
+
+    }
+    a{
+        color: #c67ace;
+        margin: 10px 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        text-decoration: none;
+
+    }
+    a:hover{
+        color:#ce1212;
+    }
+
+
+    .skill-row1{
+        width: 60%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+    }
+
+    .skill-row2{
+        width: 60%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+    
+    }
+    .myskills{
+        text-align: center;
+        font-size: 40px;
+    }
+    .skill1{
+        width: 30%;
+        height: 30%;
+        float: left;
+        margin-right: 30px;
+    } 
+    .skill2{
+        width: 30%;
+        height: 30%;
+        float: right;
+    }
+
+    .btn {
+        background: #11CDD4;
+        background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+        background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+        background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+        background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+        background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        border-radius: 18px;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        box-shadow: 1px 1px 8px 0 #11d3ec;
+        text-shadow: 1px 1px 8px #000000;
+    
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .btn:hover {
+        border: solid #337FED 1px;
+        background: #30E3CB;
+        background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    
+
+    .contact-me{
+        padding: 10px;
+    }
+    .copyright{
+        font-size: 0.75rem;
+    }
